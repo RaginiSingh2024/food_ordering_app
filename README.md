@@ -98,21 +98,21 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 <tr>
 <td width="50%" align="center">
 
-### 🏠 Home
+<h3>🏠 Home</h3>
 
-<img src="screenshots/01_home.png" width="100%" alt="Foodie Home Screen">
+<img src="screenshots/01_home.png" width="360" alt="Foodie Home Screen">
 
-**Explore delicious food, categories and popular dishes.**
+<p><strong>Explore delicious food, categories and popular dishes.</strong></p>
 
 </td>
 
 <td width="50%" align="center">
 
-### 🍕 Food Menu
+<h3>🍕 Food Menu</h3>
 
-<img src="screenshots/02_menu.png" width="100%" alt="Foodie Menu Screen">
+<img src="screenshots/02_menu.png" width="360" alt="Foodie Menu Screen">
 
-**Browse the menu and filter food by category.**
+<p><strong>Browse the menu and filter food by category.</strong></p>
 
 </td>
 </tr>
@@ -120,34 +120,19 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 <tr>
 <td width="50%" align="center">
 
-### 🍔 Food Details
+<h3>🍕 Food Details</h3>
 
-<img src="screenshots/03_food_details.png" width="100%" alt="Foodie Food Details Screen">
+<img src="screenshots/03_food_details.png" width="360" alt="Foodie Food Details Screen">
 
-**View food details, ingredients, ratings and quantity.**
+<p><strong>View food details, ingredients, ratings and quantity.</strong></p>
 
 </td>
 
 <td width="50%" align="center">
 
-### 🛒 Cart & Checkout
-
-<img src="screenshots/04_cart_checkout.png" width="100%" alt="Foodie Cart and Checkout Screen">
-
-**Manage your cart, enter delivery details and place an order.**
-
-</td>
-</tr>
-</table>
-
----
-<table>
-<tr>
-<td width="50%" align="center">
-  
 <h3>🍔 Burger Details</h3>
 
-<img src="screenshots/04_burger_details.png" width="95%" alt="Foodie Burger Details Screen">
+<img src="screenshots/04_burger_details.png" width="360" alt="Foodie Burger Details Screen">
 
 <p><strong>Explore burger details, ingredients, ratings and add to cart.</strong></p>
 
@@ -157,28 +142,36 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 <tr>
 <td width="33.33%" align="center">
 
+<h3>🛒 Cart &amp; Checkout</h3>
+
+<img src="screenshots/04_cart_checkout.png" width="360" alt="Foodie Cart and Checkout Screen">
+
+<p><strong>Manage your cart, enter delivery details and place an order.</strong></p>
+
+</td>
+
 <td width="33.33%" align="center">
 
 <h3>🎉 Order Confirmation</h3>
 
-<img src="screenshots/06_order_confirmation.png" width="95%" alt="Foodie Order Confirmation Screen">
+<img src="screenshots/06_order_confirmation.png" width="360" alt="Foodie Order Confirmation Screen">
 
 <p><strong>View successful order confirmation and order details.</strong></p>
 
 </td>
 
 <td width="33.33%" align="center">
+<tr>
+<td colspan="3" align="center">
 
 <h3>👤 Profile</h3>
 
-<img src="screenshots/07_profile.png" width="95%" alt="Foodie Profile Screen">
+<img src="screenshots/07_profile.png" width="360" alt="Foodie Profile Screen">
 
 <p><strong>View and manage your Foodie profile.</strong></p>
 
 </td>
 </tr>
-
-</table>
 
 ## 🛠️ TECH STACK
 
