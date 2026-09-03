@@ -25,8 +25,9 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
 
   final _nameController = TextEditingController(text: 'Ragini');
   final _phoneController = TextEditingController(text: '9876543210');
-  final _addressController =
-      TextEditingController(text: '221B Baker Street, Flat 4A');
+  final _addressController = TextEditingController(
+    text: '221B Baker Street, Flat 4A',
+  );
   String? _selectedPayment = 'UPI';
   bool _saveAddress = true;
 
@@ -69,7 +70,10 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
-            child: const Text('Cancel', style: TextStyle(color: AppColors.textLight)),
+            child: const Text(
+              'Cancel',
+              style: TextStyle(color: AppColors.textLight),
+            ),
           ),
           ElevatedButton(
             onPressed: () {
@@ -155,10 +159,7 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
             const Text(
               'Your order has been placed successfully.',
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 13,
-                color: AppColors.textMedium,
-              ),
+              style: TextStyle(fontSize: 13, color: AppColors.textMedium),
             ),
             const SizedBox(height: 20),
 
@@ -180,7 +181,11 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
                   const SizedBox(height: 6),
                   _dialogRow('Payment', paymentMethod),
                   const Divider(height: 16, color: AppColors.divider),
-                  _dialogRow('Total Amount', totalAmountFormatted, isBold: true),
+                  _dialogRow(
+                    'Total Amount',
+                    totalAmountFormatted,
+                    isBold: true,
+                  ),
                 ],
               ),
             ),
@@ -206,7 +211,9 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
 
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
-                      content: Text('🎉 Thank you for your order! Enjoy your meal.'),
+                      content: Text(
+                        '🎉 Thank you for your order! Enjoy your meal.',
+                      ),
                       duration: Duration(seconds: 3),
                     ),
                   );
@@ -229,8 +236,12 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
     );
   }
 
-  Widget _dialogRow(String label, String value,
-      {bool isBold = false, bool isHighlight = false}) {
+  Widget _dialogRow(
+    String label,
+    String value, {
+    bool isBold = false,
+    bool isHighlight = false,
+  }) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -246,7 +257,9 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
           value,
           style: TextStyle(
             fontSize: isBold ? 15 : 13,
-            fontWeight: isBold || isHighlight ? FontWeight.w800 : FontWeight.w600,
+            fontWeight: isBold || isHighlight
+                ? FontWeight.w800
+                : FontWeight.w600,
             color: isHighlight
                 ? AppColors.primary
                 : (isBold ? AppColors.textDark : AppColors.textDark),
@@ -511,7 +524,9 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
                                       ),
                                       DropdownMenuItem(
                                         value: 'UPI',
-                                        child: Text('UPI (Google Pay, PhonePe)'),
+                                        child: Text(
+                                          'UPI (Google Pay, PhonePe)',
+                                        ),
                                       ),
                                       DropdownMenuItem(
                                         value: 'Credit/Debit Card',
@@ -537,11 +552,13 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
                                         value: _saveAddress,
                                         activeColor: AppColors.primary,
                                         shape: RoundedRectangleBorder(
-                                          borderRadius:
-                                              BorderRadius.circular(5),
+                                          borderRadius: BorderRadius.circular(
+                                            5,
+                                          ),
                                         ),
                                         onChanged: (val) => setState(
-                                            () => _saveAddress = val ?? false),
+                                          () => _saveAddress = val ?? false,
+                                        ),
                                       ),
                                       const Text(
                                         'Save this address for next time',
@@ -624,8 +641,10 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
                             width: double.infinity,
                             child: ElevatedButton.icon(
                               onPressed: _placeOrder,
-                              icon: const Icon(Icons.check_circle_outline_rounded,
-                                  size: 22),
+                              icon: const Icon(
+                                Icons.check_circle_outline_rounded,
+                                size: 22,
+                              ),
                               label: Text(
                                 'Place Order  •  ₹${_grandTotal.toStringAsFixed(0)}',
                                 style: const TextStyle(
@@ -634,8 +653,9 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
                                 ),
                               ),
                               style: ElevatedButton.styleFrom(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 16),
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 16,
+                                ),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(16),
                                 ),
@@ -732,8 +752,10 @@ class _CartCheckoutScreenState extends State<CartCheckoutScreen> {
                 icon: const Icon(Icons.restaurant_menu_rounded, size: 20),
                 label: const Text('Browse Menu'),
                 style: ElevatedButton.styleFrom(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 26, vertical: 14),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 26,
+                    vertical: 14,
+                  ),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(14),
                   ),
