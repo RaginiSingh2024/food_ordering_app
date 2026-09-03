@@ -90,140 +90,58 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 - Cart clearing after successful order
 
 ---
-
 # 📱 App Screenshots
 
 ## 🖼️ App Showcase
 
-<p align="center">
-  <strong>Explore • Discover • Order • Enjoy</strong>
-</p>
-
----
-
-### 🏠 Explore & Discover
-
 <table>
 <tr>
-
 <td width="50%" align="center">
 
-<h3>🏠 Home Screen</h3>
+### 🏠 Home
 
 <img src="screenshots/01_home.png" width="100%" alt="Foodie Home Screen">
 
-<p>
-Discover food categories, popular dishes, featured offers
-and quickly access the cart.
-</p>
+**Explore delicious food, categories and popular dishes.**
 
 </td>
 
 <td width="50%" align="center">
 
-<h3>🍕 Food Menu</h3>
+### 🍕 Food Menu
 
-<img src="screenshots/02_menu.png" width="100%" alt="Foodie Food Menu">
+<img src="screenshots/02_menu.png" width="100%" alt="Foodie Menu Screen">
 
-<p>
-Browse the complete menu, search for dishes and filter
-food items by category.
-</p>
+**Browse the menu and filter food by category.**
 
 </td>
-
 </tr>
-</table>
 
----
+<tr>
+<td width="50%" align="center">
 
 ### 🍔 Food Details
 
-<table>
-<tr>
+<img src="screenshots/03_food_details.png" width="100%" alt="Foodie Food Details Screen">
 
-<td width="50%" align="center">
-
-<h3>🍕 Margherita Pizza Details</h3>
-
-<img src="screenshots/03_pizza_details.png" width="100%" alt="Margherita Pizza Details">
-
-<p>
-View food information, ratings, ingredients, delivery time
-and dynamically calculated pricing.
-</p>
+**View food details, ingredients, ratings and quantity.**
 
 </td>
 
 <td width="50%" align="center">
 
-<h3>🍔 Classic Veg Burger Details</h3>
+### 🛒 Cart & Checkout
 
-<img src="screenshots/04_burger_details.png" width="100%" alt="Classic Veg Burger Details">
+<img src="screenshots/04_cart_checkout.png" width="100%" alt="Foodie Cart and Checkout Screen">
 
-<p>
-Explore another food item with detailed information,
-ingredients and add-to-cart functionality.
-</p>
+**Manage your cart, enter delivery details and place an order.**
 
 </td>
-
 </tr>
 </table>
 
 ---
 
-### 🛒 Order & Account
-
-<table>
-<tr>
-
-<td width="33.33%" align="center">
-
-<h3>🛒 Cart & Checkout</h3>
-
-<img src="screenshots/05_cart_checkout.png" width="100%" alt="Foodie Cart and Checkout">
-
-<p>
-Manage cart items, quantities, delivery details and payment
-method before placing an order.
-</p>
-
-</td>
-
-<td width="33.33%" align="center">
-
-<h3>🎉 Order Confirmation</h3>
-
-<img src="screenshots/06_order_confirmation.png" width="100%" alt="Foodie Order Confirmation">
-
-<p>
-View the successful order confirmation along with order
-details, payment information and total amount.
-</p>
-
-</td>
-
-<td width="33.33%" align="center">
-
-<h3>👤 Profile</h3>
-
-<img src="screenshots/07_profile.png" width="100%" alt="Foodie Profile Screen">
-
-<p>
-Access the user profile section of the Foodie application.
-</p>
-
-</td>
-
-</tr>
-</table>
-
----
-
-<p align="center">
-  <strong>🍔 Foodie — A modern Flutter food ordering experience</strong>
-</p>
 
 ## 🛠️ TECH STACK
 
