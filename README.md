@@ -141,7 +141,88 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 </table>
 
 ---
+# 📱 App Screenshots
 
+## 🖼️ App Showcase
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+<h3>🏠 Home</h3>
+
+<img src="screenshots/01_home.png" width="95%" alt="Foodie Home Screen">
+
+<p><strong>Explore delicious food, categories and popular dishes.</strong></p>
+
+</td>
+
+<td width="50%" align="center">
+
+<h3>🍕 Food Menu</h3>
+
+<img src="screenshots/02_menu.png" width="95%" alt="Foodie Menu Screen">
+
+<p><strong>Browse the menu and filter food by category.</strong></p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" align="center">
+
+<h3>🍔 Food Details</h3>
+
+<img src="screenshots/03_food_details.png" width="95%" alt="Foodie Food Details Screen">
+
+<p><strong>View food details, ingredients, ratings and quantity.</strong></p>
+
+</td>
+
+<td width="50%" align="center">
+
+<h3>🍔 Burger Details</h3>
+
+<img src="screenshots/04_burger_details.png" width="95%" alt="Foodie Burger Details Screen">
+
+<p><strong>Explore burger details, ingredients, ratings and add to cart.</strong></p>
+
+</td>
+</tr>
+
+<tr>
+<td width="33.33%" align="center">
+
+<h3>🛒 Cart &amp; Checkout</h3>
+
+<img src="screenshots/04_cart_checkout.png" width="95%" alt="Foodie Cart and Checkout Screen">
+
+<p><strong>Manage your cart, enter delivery details and place an order.</strong></p>
+
+</td>
+
+<td width="33.33%" align="center">
+
+<h3>🎉 Order Confirmation</h3>
+
+<img src="screenshots/06_order_confirmation.png" width="95%" alt="Foodie Order Confirmation Screen">
+
+<p><strong>View successful order confirmation and order details.</strong></p>
+
+</td>
+
+<td width="33.33%" align="center">
+
+<h3>👤 Profile</h3>
+
+<img src="screenshots/07_profile.png" width="95%" alt="Foodie Profile Screen">
+
+<p><strong>View and manage your Foodie profile.</strong></p>
+
+</td>
+</tr>
+
+</table>
 
 ## 🛠️ TECH STACK
 
