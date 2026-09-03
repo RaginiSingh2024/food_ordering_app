@@ -100,7 +100,7 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 
 <h3>🏠 Home</h3>
 
-<img src="screenshots/01_home.png" width="360" alt="Foodie Home Screen">
+<img src="screenshots/01_home.png" width="100%" alt="Foodie Home Screen">
 
 <p><strong>Explore delicious food, categories and popular dishes.</strong></p>
 
@@ -110,7 +110,7 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 
 <h3>🍕 Food Menu</h3>
 
-<img src="screenshots/02_menu.png" width="360" alt="Foodie Menu Screen">
+<img src="screenshots/02_menu.png" width="100%" alt="Foodie Menu Screen">
 
 <p><strong>Browse the menu and filter food by category.</strong></p>
 
@@ -122,7 +122,7 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 
 <h3>🍕 Food Details</h3>
 
-<img src="screenshots/03_food_details.png" width="360" alt="Foodie Food Details Screen">
+<img src="screenshots/03_food_details.png" width="100%" alt="Foodie Food Details Screen">
 
 <p><strong>View food details, ingredients, ratings and quantity.</strong></p>
 
@@ -132,7 +132,7 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 
 <h3>🍔 Burger Details</h3>
 
-<img src="screenshots/04_burger_details.png" width="360" alt="Foodie Burger Details Screen">
+<img src="screenshots/04_burger_details.png" width="100%" alt="Foodie Burger Details Screen">
 
 <p><strong>Explore burger details, ingredients, ratings and add to cart.</strong></p>
 
@@ -140,46 +140,81 @@ This project is developed as a **Flutter Mini Project for the Food & Restaurant 
 </tr>
 
 <tr>
-<td width="33.33%" align="center">
+<td width="50%" align="center">
 
 <h3>🛒 Cart &amp; Checkout</h3>
 
-<img src="screenshots/04_cart_checkout.png" width="360" alt="Foodie Cart and Checkout Screen">
+<img src="screenshots/04_cart_checkout.png" width="100%" alt="Foodie Cart and Checkout Screen">
 
 <p><strong>Manage your cart, enter delivery details and place an order.</strong></p>
 
 </td>
 
-<td width="33.33%" align="center">
+<td width="50%" align="center">
 
 <h3>🎉 Order Confirmation</h3>
 
-<img src="screenshots/06_order_confirmation.png" width="360" alt="Foodie Order Confirmation Screen">
+<img src="screenshots/06_order_confirmation.png" width="100%" alt="Foodie Order Confirmation Screen">
 
 <p><strong>View successful order confirmation and order details.</strong></p>
 
 </td>
+</tr>
 
-<td width="33.33%" align="center">
 <tr>
-<td colspan="3" align="center">
+<td colspan="2" align="center">
 
 <h3>👤 Profile</h3>
 
-<img src="screenshots/07_profile.png" width="360" alt="Foodie Profile Screen">
+<img src="screenshots/07_profile.png" width="50%" alt="Foodie Profile Screen">
 
 <p><strong>View and manage your Foodie profile.</strong></p>
 
 </td>
 </tr>
 
-## 🛠️ TECH STACK
+</table>
 
-Flutter
-Dart
-Material 3
-Local Dummy Data
-StatefulWidget / setState
+## 📂 PROJECT STRUCTURE
+
+```text
+food_ordering_app/
+│
+├── 📁 android/
+├── 📁 ios/
+├── 📁 assets/
+│   └── 📁 images/
+│
+├── 📁 lib/
+│   ├── 📁 models/
+│   │   └── food_item.dart
+│   │
+│   ├── 📁 screens/
+│   │   ├── home_screen.dart
+│   │   ├── menu_screen.dart
+│   │   ├── food_details_screen.dart
+│   │   └── cart_checkout_screen.dart
+│   │
+│   ├── 📁 widgets/
+│   │   └── cart_item_tile.dart
+│   │
+│   └── main.dart
+│
+├── 📁 screenshots/
+│   ├── 01_home.png
+│   ├── 02_menu.png
+│   ├── 03_food_details.png
+│   ├── 04_burger_details.png
+│   ├── 04_cart_checkout.png
+│   ├── 06_order_confirmation.png
+│   └── 07_profile.png
+│
+├── 📁 test/
+│
+├── 📄 pubspec.yaml
+├── 📄 pubspec.lock
+├── 📄 analysis_options.yaml
+└── 📄 README.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -194,6 +229,7 @@ lib/
 assets/
 └── images/
 
+```
 
 # 🧭 Application Flow
 
